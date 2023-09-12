@@ -73,9 +73,13 @@
 
 .box:hover,
 .icons:hover {
-    background: url(Rectangle\ 6.png);
+    background: url(Rectangle\ 6.png) no-repeat center;
+    background-size: cover;
     opacity: 0.9;
     box-shadow: 10px 10px #95e1d3;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
 }
 
 .icons {
