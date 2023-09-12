@@ -101,3 +101,28 @@
 .alarm h4 {
     font-family: 'Montserrat', sans-serif;
 }
+
+.A5 {
+    background: url(Layer\ 45.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.A5::before {
+    content: "";
+    background-color: #d9d9d9;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.A5 h3 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.A5 h4 {
+    font-family: 'Montserrat', sans-serif;
+}
