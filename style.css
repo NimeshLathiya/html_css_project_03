@@ -171,3 +171,15 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #95e1d3;
 }
+
+.A7 {
+    background-color: #f8f8f8;
+}
+
+.hrtag hr {
+    opacity: 0;
+}
+
+.hrtag p {
+    font-family: 'Kaushan Script', cursive;
+}
