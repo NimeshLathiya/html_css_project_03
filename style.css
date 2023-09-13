@@ -204,7 +204,6 @@
 .team:hover,
 .teams:hover {
     cursor: pointer;
-    content: "";
     top: 0;
     left: 0;
     position: absolute;
@@ -233,4 +232,20 @@
 
 .A10 p {
     font-family: 'Roboto', sans-serif;
+}
+
+.layicn {
+    opacity: 0;
+}
+
+.layer:hover,
+.layicn:hover {
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, #f1e390 0%, #ea8b89 100%);
+    opacity: 0.9;
 }
