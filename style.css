@@ -194,7 +194,6 @@
 }
 
 .A8 p {
-    color: #999999;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -214,4 +213,8 @@
     box-shadow: 10px 10px #95e1d3;
     background-image: linear-gradient(0deg, #f1e390 0%, #ea8b89 100%);
     opacity: 0.8;
+}
+
+.tname {
+    color: black;
 }
