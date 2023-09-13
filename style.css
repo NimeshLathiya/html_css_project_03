@@ -272,3 +272,14 @@
 .clint {
     z-index: 1;
 }
+
+.calander::after {
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 55px;
+    background-color: #95e1d3;
+    top: 235px;
+    left: 0;
+    z-index: 1;
+}
