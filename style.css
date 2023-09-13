@@ -375,4 +375,17 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.A14::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+    opacity: 0.6;
 }
