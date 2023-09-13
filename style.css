@@ -16,6 +16,48 @@
     z-index: 1;
 }
 
+.nav-link {
+    position: relative;
+    transition: all 0.8s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: yellow;
+}
+
+.nav-link::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: yellow;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    pointer-events: none;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+    opacity: 1;
+    color: yellow;
+}
+
+.btn {
+    transition: all 0.9s;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: 3px solid white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
 .A1 {
     background: url(Layer\ 15.png) no-repeat center;
     background-size: cover;
@@ -266,11 +308,55 @@
     height: 100%;
     width: 100%;
     background-color: #d9d9d9;
-    opacity: 0.7;
+    opacity: 0.9;
+}
+
+.people h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.people h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.people p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #999999;
 }
 
 .clint {
     z-index: 1;
+}
+
+.clint h4 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.clint h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_head h4 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.main_head h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dolor h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dolor p {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+
+.dolor span {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
 }
 
 .calander::after {
@@ -279,7 +365,14 @@
     height: 70px;
     width: 55px;
     background-color: #95e1d3;
-    top: 235px;
+    top: 145px;
     left: 0;
     z-index: 1;
+}
+
+.A14 {
+    background: url(Layer\ 59.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
