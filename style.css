@@ -29,11 +29,11 @@
 .nav-link::after {
     content: "";
     height: 2px;
-    width: 78px;
+    width: 100%;
     background: yellow;
     display: block;
     position: absolute;
-    left: 5px;
+    left: 0;
     bottom: 0;
     opacity: 0;
     transition: all 0.5s;
@@ -75,7 +75,7 @@
     height: 100%;
     width: 100%;
     background-image: linear-gradient(0deg, #fbe389 0%, #f48b82 100%);
-    opacity: 0.7;
+    opacity: 0.9;
 
 }
 
@@ -359,6 +359,42 @@
     font-family: 'Roboto', sans-serif;
     color: #999999;
 }
+
+.eye i {
+    transition: all 0.8s;
+}
+
+.eye i:hover {
+    transform: scale(1.4);
+}
+
+.eyest img {
+    transition: all 0.8s;
+}
+
+.eyest img:hover {
+    transform: scale(1.1);
+}
+
+.images img {
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+.images img:hover {
+    transform: scale(1.15);
+}
+
+.imaging img {
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+.imaging img:hover {
+    transform: scale(1.05);
+}
+
+
 
 .A14 {
     background: url(Layer\ 59.png) no-repeat center;
