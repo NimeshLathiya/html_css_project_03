@@ -440,6 +440,11 @@
     transform: scale(1.05);
 }
 
+.calfun {
+    top: 140px;
+    left: -1px;
+}
+
 @media (max-width:767px) {
     .calander {
         margin-top: 35px;
@@ -448,10 +453,10 @@
 
 @media (max-width:320px) {
     .calfun {
-        top: 150px;
+        top: 110px;
+        /* right: -10px; */
     }
 }
-
 
 .A14 {
     background: url(Layer\ 59.png) no-repeat center;
