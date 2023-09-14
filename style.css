@@ -309,6 +309,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width:767px) {
+    .layerings img {}
+}
+
+
 .layicn {
     opacity: 0;
 }
