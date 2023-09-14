@@ -161,6 +161,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width:475px) {
+    .mar-top {
+        margin-top: 15px;
+    }
+
+    .mar-top p {
+        font-size: 15px;
+    }
+}
+
 .A5 {
     background: url(Layer\ 45.png);
     background-size: cover;
@@ -335,6 +345,17 @@
     opacity: 0.9;
 }
 
+@media (max-width:475px) {
+    .wrap-p {
+        flex-wrap: wrap;
+    }
+
+    .wrap-p img {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
+
 .people h5 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -425,6 +446,13 @@
     }
 }
 
+@media (max-width:320px) {
+    .calfun {
+        top: 150px;
+    }
+}
+
+
 .A14 {
     background: url(Layer\ 59.png) no-repeat center;
     background-size: cover;
@@ -462,4 +490,10 @@ footer {
 
 .follow {
     color: black;
+}
+
+@media (max-width:475px) {
+    .loremsing {
+        font-size: 14px;
+    }
 }
