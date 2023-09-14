@@ -281,6 +281,7 @@
     opacity: 0;
 }
 
+
 .layer:hover,
 .layicn:hover {
     cursor: pointer;
@@ -360,12 +361,14 @@
     color: #999999;
 }
 
-.eye i {
+.eye i,
+.eye img {
     transition: all 0.8s;
 }
 
-.eye i:hover {
-    transform: scale(1.4);
+.eye i:hover,
+.eye img:hover {
+    transform: scale(1.35);
 }
 
 .eyest img {
