@@ -121,14 +121,28 @@
         margin-bottom: -10px;
     }
 
-    .dhr {
-        margin: 1px 0;
-    }
-
     .progress p {
         padding-top: 0;
     }
 }
+
+@media (max-width: 576px) {
+    .dhr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .first-btn button {
+        margin-top: 20px;
+    }
+
+}
+
+/* @media (max-width:575px) {
+    .dhr {
+        margin: 25px 0;
+    }
+} */
 
 /* 
 @ @media (max-width:475px) {
