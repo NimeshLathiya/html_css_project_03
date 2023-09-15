@@ -81,6 +81,24 @@
     opacity: 0.9;
 }
 
+/* .navbar {
+    background: url(Layer\ 15.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+} */
+
+/* .navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg, #fbe389 0%, #f48b82 100%);
+    opacity: 0.9;
+} */
 
 .eagle {
     padding: 150px 0 0 0;
@@ -99,16 +117,20 @@
     letter-spacing: 1px;
 }
 
+.nav-item {
+    font-size: 14px;
+}
+
 @media (min-width:767px) and (max-width:1326px) {
     .eagle {
-        padding: 130px 0 0 0;
+        padding: 150px 0 0 0;
     }
 
 }
 
 @media (max-width:767px) {
     .eagle {
-        padding: 80px 0 0 0;
+        padding: 95px 0 0 0;
     }
 
     .eagle h1 {
