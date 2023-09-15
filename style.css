@@ -81,7 +81,7 @@
 
 
 .eagle {
-    padding: 120px 0 0 0;
+    padding: 150px 0 0 0;
 
 }
 
@@ -99,7 +99,7 @@
 
 @media (min-width:767px) and (max-width:1326px) {
     .eagle {
-        padding: 100px 0 0 0;
+        padding: 130px 0 0 0;
     }
 
     .progress-bar p {
@@ -113,16 +113,20 @@
     }
 
     .eagle h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .eagle h2 {
-        font-size: 65px;
+        font-size: 80px;
         margin-bottom: -5px;
     }
 
     .progress p {
         padding-top: 0;
+    }
+
+    .first-btn button {
+        : 20px;
     }
 }
 
@@ -139,11 +143,11 @@
     }
 
     .eagle h1 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .eagle h2 {
-        font-size: 50px;
+        font-size: 60px;
         margin-bottom: -5px;
     }
 }
@@ -152,6 +156,21 @@
     .accordion-body p {
         font-size: 13px;
     }
+
+    .eagle h1 {
+        font-size: 35px;
+    }
+
+    .eagle h2 {
+        font-size: 53px;
+        margin-bottom: -5px;
+    }
+
+    .first-btn button {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
 }
 
 /* @media (max-width:575px) {
