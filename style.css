@@ -97,17 +97,49 @@
     letter-spacing: 1px;
 }
 
-@media (min-width:767px) and (max-width:1400px) {}
+@media (min-width:767px) and (max-width:1326px) {
+    .eagle {
+        padding: 100px 0 0 0;
+    }
 
-@media (max-width:475px) {
+    .progress-bar p {
+        /* padding-top: 100px; */
+    }
+}
+
+@media (max-width:767px) {
+    .eagle {
+        padding: 80px 0 0 0;
+    }
+
+    .eagle h1 {
+        font-size: 35px;
+    }
+
+    .eagle h2 {
+        font-size: 54px;
+        margin-bottom: -10px;
+    }
+
+    .dhr hr {
+        margin: 10px 0;
+    }
+
+    .progress p {
+        padding-top: 0;
+    }
+}
+
+/* 
+@ @media (max-width:475px) {
     .eagle h2 {
         font-size: 52px;
     }
 
     .eagle {
-        padding: 80px 0 0 0;
+        padding: 0px 0 0 0;
     }
-}
+} */
 
 .A2 h3 {
     font-family: 'Kaushan Script', cursive;
