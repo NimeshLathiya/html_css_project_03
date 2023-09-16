@@ -46,9 +46,6 @@
     color: yellow;
 }
 
-@media (min-width:575px) and (max-width:767px) {
-    .nav-link
-}
 
 .btn {
     transition: all 0.9s;
@@ -81,24 +78,6 @@
     opacity: 0.9;
 }
 
-/* .navbar {
-    background: url(Layer\ 15.png) no-repeat center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-} */
-
-/* .navbar::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(0deg, #fbe389 0%, #f48b82 100%);
-    opacity: 0.9;
-} */
 
 .eagle {
     padding: 150px 0 0 0;
