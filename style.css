@@ -589,20 +589,15 @@
 }
 
 .calfun {
-    top: 140px;
-    left: -1px;
+    top: 38%;
+    /* left: 10%; */
 }
 
-@media (max-width:767px) {
-
-    .calander {
-        margin-top: 35px;
-    }
-}
+@media (max-width:767px) {}
 
 @media (max-width:320px) {
     .calfun {
-        top: 110px;
+        /* top: 110px; */
         /* right: -10px; */
     }
 }
