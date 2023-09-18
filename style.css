@@ -594,9 +594,6 @@
 }
 
 @media (max-width:767px) {
-    .collapse {
-        /* margin-top: 10px; */
-    }
 
     .calander {
         margin-top: 35px;
