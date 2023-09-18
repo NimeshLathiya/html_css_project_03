@@ -16,6 +16,15 @@
     z-index: 1;
 }
 
+.navbar {
+    text-align: center;
+    background: url(Layer\ 15.png) no-repeat center;
+    background-size: cover;
+    z-index: 1000;
+    background-image: linear-gradient(0deg, #fbe389 0%, #f48b82 100%);
+}
+
+
 .nav-link {
     position: relative;
     transition: all 0.8s;
@@ -184,12 +193,6 @@
         line-height: 75px;
     }
 
-    .navbar {
-        text-align: center;
-        /* background: url(Layer\ 15.png) no-repeat center; */
-        background-image: linear-gradient(0deg, #fbe389 0%, #f48b82 100%);
-        opacity: 1;
-    }
 
 }
 
@@ -591,6 +594,10 @@
 }
 
 @media (max-width:767px) {
+    .collapse {
+        /* margin-top: 10px; */
+    }
+
     .calander {
         margin-top: 35px;
     }
