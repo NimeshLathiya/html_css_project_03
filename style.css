@@ -633,13 +633,6 @@
     transform: scale(1.05);
 }
 
-@media (max-width:320px) {
-    .calfun {
-        /* top: 110px; */
-        /* right: -10px; */
-    }
-}
-
 
 .A14 {
     background: url(Layer\ 59.png) no-repeat center;
