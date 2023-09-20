@@ -113,6 +113,11 @@
     .fixtesti {
         padding: 20px 170px 10px;
     }
+
+    .iphone-ipad {
+        position: relative;
+        top: 92px;
+    }
 }
 
 @media (max-width:1024px) {
@@ -186,6 +191,11 @@
 
     .fixtesti {
         padding: 20px 100px 10px;
+    }
+
+    .iphone-ipad {
+        position: relative;
+        top: 74px;
     }
 }
 
@@ -274,6 +284,11 @@
         font-size: 0.875rem;
     }
 
+    .iphone-ipad {
+        position: relative;
+        top: 58px;
+    }
+
 }
 
 @media (max-width:320px) {
@@ -294,6 +309,11 @@
         font-size: 0.875rem;
     }
 
+    .iphone-ipad {
+        position: relative;
+        top: 92px;
+    }
+
 }
 
 .A2 h3 {
@@ -312,6 +332,11 @@
 @media (max-width:575px) {
     .box {
         padding: 20px 0;
+    }
+
+    .iphone-ipad {
+        position: relative;
+        top: 79px;
     }
 }
 
@@ -359,15 +384,28 @@
     .mar-top p {
         font-size: 15px;
     }
+
+    .iphone-ipad {
+        position: relative;
+        top: 66px;
+    }
 }
 
 .A5 {
-    background: url(Rect-angle.png) center;
+    background: url(Layer\ 45.png);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    /* padding: 50px 0; */
-    /* position: relative; */
+    position: relative;
+}
+
+.A5::before {
+    content: "";
+    background-color: #d9d9d9;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
 }
 
 .A5 h3 {
