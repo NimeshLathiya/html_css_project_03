@@ -385,10 +385,6 @@
         font-size: 15px;
     }
 
-    .iphone-ipad {
-        position: relative;
-        top: 66px;
-    }
 }
 
 .A5 {
@@ -705,5 +701,10 @@ footer {
 @media (max-width:475px) {
     .loremsing {
         font-size: 14px;
+    }
+
+    .iphone-ipad {
+        position: relative;
+        top: 66px;
     }
 }
